@@ -68,32 +68,6 @@ const plugins = [
 </script>
 
 <style scoped>
-.flicking-arrow-prev,
-.flicking-arrow-next {
-  display: flex;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-  width: 40px;
-  height: 40px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: opacity 0.3s ease;
-}
-
-.flicking-arrow-prev {
-  left: 10px;
-}
-
-.flicking-arrow-next {
-  right: 10px;
-}
-
 .plugins-panel {
   display: flex;
   justify-content: center;
